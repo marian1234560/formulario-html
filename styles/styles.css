@@ -1,0 +1,87 @@
+/* estilos generales*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/*colores Texto*/
+.text-blue{
+    color: rgb(143, 131, 161);
+}
+/*colores de fondo*/
+.bg-gray{
+    background-image:url("../img/eberhard-grossgasteiger-NvesrDbsrL4-unsplash.jpg");
+    background-size: cover;
+    /*background-size: cover;
+    background-repeat: no-repeat;*/
+    background-position-y: 57%;
+    /*background-position background-position-x background-position-y*/
+    
+    
+}
+.bg-white{
+    background-color: rgb(255, 255, 255);
+}
+.form-container{
+    padding: 4rem;
+    width: 30%;
+    height: 25rem;
+    /*border: <tipo de borde> <medida del borde> <color del borde>;*/
+    border: solid 0,2rem plum;
+    border-radius: 0.8rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /*box-shadow: <posicion en y> <posicion en x>< nievel de distorcio> <clor>;*/
+    box-shadow: -15px 11px 10px rgba(0, 0, 0, 0.493);
+}
+
+/*contenedor de los inputs*/
+.input-container{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.input-container input{
+    border-radius: 0.4rem;
+    border: solid 0.2rem gray;
+    padding: 0.4rem;
+    margin-top: 0.2rem;
+
+}
+
+/*contenedor checkbox*/
+.check-container{
+    margin-top: 0.8rem;
+}
+
+.check-container input{
+    margin-right: 1rem;
+}
+
+/* estilos del boton*/
+.btn-container{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    padding: 0.7rem;
+    background-color: rgb(218, 163, 231);
+    border: 0px;
+    border-radius: 0.4rem;
+    color: seashell;
+}
+
+.btn:hover{
+    background-color: rgb(114, 62, 114);
+    color: rgba(243, 182, 233, 0.945);
+}
+
+/*alineacion del formulario*/
+.screen-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+}
